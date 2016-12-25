@@ -1,0 +1,31 @@
+﻿@using System.Collections.Generic;
+@using CourseDiscusions.WebClient.Models;
+
+@model IEnumerable<CourseViewModel>
+
+@{
+    ViewBag.Title = "EnrollInCourse";
+}
+
+<div class="container">
+    <div class="row">
+        Dear @User.Identity.Name, currently you are not enrolled in
+        any course. Please, feel free to join any of the listed below:
+    </div>
+    
+    <div class="row">
+        @using (Html.BeginForm())
+        {
+            <div class="form-group">
+                <label>Available Courses: </label>
+                @Html.DropDownList("AvailableCourses",
+                new SelectList(Model),
+                new { @class = "form-control", multiple = "multiple" });
+            </div>
+            <button type="submit" class="btn btn-primary">Enroll</button>
+            <button type="reset" class="btn btn-danger">Clear Selection</button>
+        }
+    </div>
+</div>
+
+

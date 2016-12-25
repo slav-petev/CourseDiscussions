@@ -22,7 +22,7 @@ namespace CourseDiscussions.Persistance.Repositories
             if (_disposed)
                 throw new ObjectDisposedException(nameof(_applicationContext));
 
-            throw new NotImplementedException();
+            return _applicationContext.Courses;
         }
 
         public void Dispose()
