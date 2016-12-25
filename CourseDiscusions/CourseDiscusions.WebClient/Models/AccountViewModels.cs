@@ -65,6 +65,10 @@ namespace CourseDiscusions.WebClient.Models
     public class RegisterViewModel
     {
         [Required]
+        [DataType(DataType.Text)]
+        public string Name { get; set; }
+
+        [Required]
         [EmailAddress]
         [Display(Name = "Email")]
         public string Email { get; set; }

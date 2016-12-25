@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseDiscusions.WebClient"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseDiscusions.WebClient.Tests", "CourseDiscusions.WebClient.Tests\CourseDiscusions.WebClient.Tests.csproj", "{6799EB67-9668-4186-B3A1-74405AF28511}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseDiscussions.Persistance", "CourseDiscussions.Persistance\CourseDiscussions.Persistance.csproj", "{0CBEA595-EFBB-4A73-BF86-848D14BAEED1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6799EB67-9668-4186-B3A1-74405AF28511}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6799EB67-9668-4186-B3A1-74405AF28511}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6799EB67-9668-4186-B3A1-74405AF28511}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CBEA595-EFBB-4A73-BF86-848D14BAEED1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CBEA595-EFBB-4A73-BF86-848D14BAEED1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CBEA595-EFBB-4A73-BF86-848D14BAEED1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CBEA595-EFBB-4A73-BF86-848D14BAEED1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
