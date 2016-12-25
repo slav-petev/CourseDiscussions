@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseDiscusions.WebClient", "CourseDiscusions.WebClient\CourseDiscusions.WebClient.csproj", "{20BB74C1-023C-40EB-BCDE-4D400C0B4EBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseDiscusions.WebClient.Tests", "CourseDiscusions.WebClient.Tests\CourseDiscusions.WebClient.Tests.csproj", "{6799EB67-9668-4186-B3A1-74405AF28511}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20BB74C1-023C-40EB-BCDE-4D400C0B4EBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20BB74C1-023C-40EB-BCDE-4D400C0B4EBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20BB74C1-023C-40EB-BCDE-4D400C0B4EBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20BB74C1-023C-40EB-BCDE-4D400C0B4EBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6799EB67-9668-4186-B3A1-74405AF28511}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6799EB67-9668-4186-B3A1-74405AF28511}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6799EB67-9668-4186-B3A1-74405AF28511}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6799EB67-9668-4186-B3A1-74405AF28511}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
